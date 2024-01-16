@@ -37,7 +37,6 @@ export function HydrateFallback() {
         <Links />
       </head>
       <body>
-        <p>Loading...</p>
         <Scripts />
         <LiveReload />
       </body>
