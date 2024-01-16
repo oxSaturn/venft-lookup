@@ -7,4 +7,5 @@ export default defineConfig({
     remix({ unstable_ssr: false }),
     tsconfigPaths(),
   ],
+  base: "/venft-lookup/"
 });
