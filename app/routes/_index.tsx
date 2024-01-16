@@ -245,7 +245,7 @@ export default function Index() {
       <footer className="text-center text-black/50 text-xs">
         Built by{" "}
         <a
-          href="https://github.com/oxSaturn"
+          href="https://github.com/oxSaturn/venft-lookup"
           className="underline text-blue-500"
         >
           oxSaturn
