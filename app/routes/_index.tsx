@@ -202,7 +202,7 @@ export default function Index() {
                 </span>{" "}
                 <span>
                   {data.owner === zeroAddress ? (
-                    data.owner
+                    <span className="break-all">data.owner</span>
                   ) : (
                     <a
                       href={`https://debank.com/profile/${data.owner}`}
