@@ -11,15 +11,15 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "^2.5.0",
-    "@remix-run/react": "^2.5.0",
+    "@remix-run/node": "^2.5.1-pre.1",
+    "@remix-run/react": "^2.5.1-pre.1",
     "http-server": "^14.1.1",
     "react": "canary",
     "react-dom": "canary",
     "viem": "^2.1.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.5.0",
+    "@remix-run/dev": "^2.5.1-pre.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
