@@ -136,6 +136,7 @@ export default function Index() {
     acc[value.chain.name].push(key);
     return acc;
   }, {} as Record<string, string[]>);
+  console.log(navigation.state);
   return (
     <div className="mx-5">
       <h1 className="text-3xl my-5">
@@ -177,7 +178,7 @@ export default function Index() {
             />
           </label>
         </div>
-
+        {!data && navigation.state === "loading" ? <Spinner /> : null}
         {data ? (
           <div
             className={`${
@@ -202,7 +203,7 @@ export default function Index() {
                 </span>{" "}
                 <span>
                   {data.owner === zeroAddress ? (
-                    <span className="break-all">data.owner</span>
+                    <span className="break-all">{data.owner}</span>
                   ) : (
                     <a
                       href={`https://debank.com/profile/${data.owner}`}
