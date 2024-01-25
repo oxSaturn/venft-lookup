@@ -79,4 +79,10 @@ export const config: Record<
     abi,
     underlying: "0xE594b57E7F11ec1E8Af9f003F74Fa52B7aefdc9F",
   },
+  veCHR: {
+    chain: arbitrum,
+    address: "0x9A01857f33aa382b1d5bb96C3180347862432B0d",
+    abi,
+    underlying: "0x15b2fb8f08E4Ac1Ce019EADAe02eE92AeDF06851",
+  }
 };
